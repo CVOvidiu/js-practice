@@ -1,0 +1,150 @@
+:root {
+  font-family: Roboto;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(235, 233, 255);
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  margin-top: 5px;
+  margin-bottom: 75px;
+  height: 5px;
+  width: 100px;
+  background-color: red;
+}
+
+.card {
+  background-color: white;
+  box-sizing: border-box;
+  padding: 50px 0;
+  text-align: center;
+  max-width: 1000px;
+}
+
+.card > * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user__img-box {
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.user__img-box .mark {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 0;
+  top: -10px;
+  border-radius: 50%;
+}
+
+.user__img-box .user__pfp {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 10px -10px 0 rgb(255, 0, 0);
+}
+
+.user__name {
+  font-weight: 400;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+
+.user__title {
+  letter-spacing: 1.5px;
+  color: red;
+}
+
+.user__review {
+  margin: 0;
+  padding: 25px 100px;
+  font-weight: 100;
+  font-size: 1.25rem;
+  line-height: 30px;
+}
+
+.card__btns {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card__btns > * {
+  border: 0;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 2.5rem;
+  color: red;
+  font-size: 500;
+  cursor: pointer;
+}
+
+.btn--random {
+  color: white;
+  background-color: red;
+  border: 0;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: 500;
+  padding: 5px 10px;
+  letter-spacing: 3px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn--random:hover {
+  background-color: rgb(220, 0, 0);
+}
+
+.btn--random:active {
+  background-color: rgb(179, 0, 0);
+}
+
+@media (max-width: 1200px) {
+  .user__review {
+    padding: 25px 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    height: auto;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  .content {
+    margin: 30px 0;
+  }
+
+  .user__review {
+    padding: 25px;
+  }
+}
