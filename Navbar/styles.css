@@ -1,0 +1,118 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: Roboto;
+}
+
+nav {
+  background-color: aliceblue;
+}
+
+.nav-header {
+  display: flex;
+  height: 80px;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+
+.menu {
+  padding: 20px;
+}
+
+.link-btns {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(224, 239, 252);
+}
+
+.link-btns li a {
+  text-decoration: none;
+  font-weight: 300;
+  color: #232b2b;
+  font-size: 2.5rem;
+  transition: padding-left 1s, color 0.25s;
+  padding-left: 1em;
+}
+
+.link-btns li {
+  padding: 1.5em 0;
+  transition: background-color 0.5s;
+}
+
+.link-btns li:hover {
+  background-color: rgb(132, 198, 255);
+}
+
+.link-btns li:hover a {
+  color: aliceblue;
+  padding-left: 2em;
+}
+
+.social-media {
+  display: none;
+}
+
+@media (min-width: 1000px) {
+  .nav-center {
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+
+  .link-btns {
+    display: flex;
+    background-color: transparent;
+  }
+
+  .link-btns li a {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .link-btns li:hover {
+    background-color: transparent;
+  }
+
+  .link-btns li:hover a {
+    padding-left: 0;
+    color: #232b2b;
+  }
+
+  .link-btns li a:hover {
+    color: #7e5eff;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .social-media {
+    display: flex;
+    padding: 0;
+    list-style: none;
+  }
+
+  .social-media li {
+    display: flex;
+    width: 30px;
+  }
+
+  .link-btns li a,
+  .social-media li {
+    padding-right: 1em;
+    padding-left: 0;
+  }
+
+  .link-btns li:last-child a,
+  .social-media li:last-child {
+    padding: 0;
+  }
+
+  .social-media li img:hover {
+    cursor: pointer;
+  }
+}
