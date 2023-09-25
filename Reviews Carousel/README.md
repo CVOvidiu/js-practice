@@ -13,6 +13,6 @@ We will have some reviews. We can switch between them using the arrows and butto
 
 ![Project Capture](./README/capture.png "This is a project capture.")
 
-## Notes
+### Notes
 
 Project done 100% by me.
