@@ -14,15 +14,15 @@ We will have a button that toggles the left-side bar which contains a logo, clos
 
 ###### \#1
 
-[!Project Capture 1](./README/capture.png "This is first project capture.")
+![Project Capture 1](./README/capture.png "This is first project capture.")
 
 ###### \#2
 
-[!Project Capture 2](./README/capture2.png "This is second project capture.")
+![Project Capture 2](./README/capture2.png "This is second project capture.")
 
 ###### \#3
 
-[!Project Capture 3](./README/capture3.png "This is third project capture.")
+![Project Capture 3](./README/capture3.png "This is third project capture.")
 
 ### Notes
 
