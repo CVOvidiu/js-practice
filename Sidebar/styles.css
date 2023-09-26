@@ -1,0 +1,110 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: flex;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.sidebar {
+  background-color: rgb(240, 243, 255);
+  width: 500px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+/* Logo & x */
+
+.section-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em;
+}
+
+.logo {
+  width: 75px;
+}
+
+.close {
+  width: 30px;
+  transition: filter 0.25s;
+  cursor: pointer;
+}
+
+.close:hover {
+  filter: invert(91%) sepia(14%) saturate(882%) hue-rotate(126deg)
+    brightness(82%) contrast(86%);
+}
+
+/* Links */
+
+.links a {
+  color: rgb(20, 20, 20);
+  font-family: Roboto;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.links li {
+  cursor: pointer;
+  padding: 1.5em 0;
+  padding-left: 1em;
+  transition: padding-left 0.5s;
+}
+
+.links li a {
+  transition: color 0.25s;
+}
+
+.links li:hover {
+  background-color: rgb(132, 198, 255);
+  padding-left: 2.5em;
+}
+
+.links li:hover a {
+  color: aliceblue;
+}
+
+/* Social Media */
+
+.section-2 {
+  margin-top: auto;
+  padding: 1em 0;
+}
+
+.sm-links {
+  display: flex;
+  justify-content: center;
+}
+
+.sm-links li {
+  margin-right: 1em;
+  cursor: pointer;
+  transition: filter 0.25s;
+}
+
+.sm-links li:last-child {
+  margin-right: 0;
+}
+
+.sm-links img {
+  width: 30px;
+}
+
+.sm-links li:hover {
+  filter: invert(91%) sepia(14%) saturate(882%) hue-rotate(126deg)
+    brightness(82%) contrast(86%);
+}
