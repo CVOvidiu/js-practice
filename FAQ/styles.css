@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(240, 254, 255);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 12.5em;
+  box-sizing: border-box;
+}
+
+.faq {
+  font-family: "Lobster";
+  font-size: 3rem;
+  margin: 0;
+  margin-bottom: 1em;
+  color: rgb(46, 178, 255);
+}
+
+.q {
+  background-color: white;
+  padding: 2em;
+  margin-bottom: 1.25em;
+  font-family: "Roboto";
+  width: 35em;
+}
+
+.q-header {
+  letter-spacing: 0.2em;
+  font-size: 1.35rem;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+}
+
+.q img {
+  display: flex;
+  width: 27.5px;
+  transition: transform 0.25s;
+  cursor: pointer;
+}
+
+.q img:hover {
+  transform: rotate(180deg);
+}
+
+hr {
+  margin: 1em 0;
+}
+
+.q-res p {
+  margin: 0;
+  font-size: 1.1rem;
+  width: 90%;
+}
+
+.hidden {
+  display: none;
+}
