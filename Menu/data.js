@@ -14,7 +14,7 @@ const data = [
     title: "pancakes happy havana",
     category: "breakfast",
     price: 13.99,
-    img: "https://lilluna.com/wp-content/uploads/2022/09/easy-pancakes3-resize-10.jpg",
+    img: "https://www.marthastewart.com/thmb/9SwNGFbxZv2ttLQ3uvZe_McJChk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-basic-pancakes-horiz-1022_0-f13ba897aba6423db7901ca826595244.jpgitokXQMZkp_j",
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, velit. Quae adipisci magnam, aspernatur animi consectetur odit. Commodi animi sunt modi laborum minus, voluptatum voluptatibus!`,
   },
 ];

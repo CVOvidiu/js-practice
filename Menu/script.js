@@ -1,29 +1,10 @@
-import data from "./data.js";
-import { capitalize } from "./helpers.js";
+import { filter } from "./processes.js";
 
-const menu = document.querySelector(".menu");
+const filters = document.querySelector(".filters");
 
-//* Dynamically load data from 'data.js' when page loads
+filter();
 
-data.forEach((mi) => {
-  const itemTitle = capitalize(mi.title);
-
-  const menuItem = `<div class="mi" id="${mi.id}">
-        <img
-          src="${mi.img}"
-          alt="menu item ${mi.id}"
-        />
-        <div class="mi--content">
-          <div class="header">
-            <span class="title">${itemTitle}</span>
-            <span class="price">$${mi.price}</span>
-          </div>
-          <hr />
-          <div class="desc">
-            ${mi.desc}
-          </div>
-        </div>
-      </div>`;
-
-  menu.insertAdjacentHTML("beforeend", menuItem);
+filters.addEventListener("click", (e) => {
+  if (e.target.id == "all") filter();
+  else filter(e.target.id);
 });
