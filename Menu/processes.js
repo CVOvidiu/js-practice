@@ -1,3 +1,5 @@
+import sqlite from "sqlite";
+
 import data from "./data.js";
 import { capitalize } from "./helpers.js";
 
